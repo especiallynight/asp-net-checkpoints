@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "WebApplication5\\Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\Study\\asp_net\\Checkpoint_4\\WebApplication5\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebApplication5\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAD8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-21T10:37:49.921Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "WebApplication5\\Controllers\\EchoController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T11:39:11.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T11:39:11.422Z"
             }
           ]
         }

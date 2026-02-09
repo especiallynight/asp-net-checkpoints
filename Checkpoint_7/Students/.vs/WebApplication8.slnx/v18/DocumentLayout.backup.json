@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|e:\\study\\asp_net\\checkpoint_7\\students\\webapplication8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|e:\\study\\asp_net\\checkpoint_7\\students\\webapplication8\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|e:\\study\\asp_net\\checkpoint_7\\students\\webapplication8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|e:\\study\\asp_net\\checkpoint_7\\students\\webapplication8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|e:\\study\\asp_net\\checkpoint_7\\students\\webapplication8\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3C3DEA-CFA6-2936-824B-7C462F4253CB}|WebApplication8\\WebApplication8.csproj|solutionrelative:webapplication8\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication8\\appsettings.json",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\appsettings.json",
+              "RelativeToolTip": "WebApplication8\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-09T09:46:20.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Models\\Student.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\Models\\Student.cs",
+              "RelativeToolTip": "WebApplication8\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T09:28:35.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\Data\\DBContext.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Data\\DBContext.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\Data\\DBContext.cs",
+              "RelativeToolTip": "WebApplication8\\Data\\DBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T09:25:06.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Program.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\Program.cs",
+              "RelativeToolTip": "WebApplication8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T09:22:02.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication8\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_7\\Students\\WebApplication8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication8\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAAAKYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T07:58:57.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
