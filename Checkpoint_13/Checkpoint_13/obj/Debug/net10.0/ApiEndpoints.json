@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "Checkpoint_13.Controllers.AuthorBooksController",
+    "Method": "CreateAuthor",
+    "RelativePath": "api/AuthorBooks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "Checkpoint_13.Models.Author",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Checkpoint_13.Controllers.AuthorBooksController",
+    "Method": "GetAuthors",
+    "RelativePath": "api/AuthorBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Checkpoint_13.Controllers.AuthorBooksController",
+    "Method": "GetAuthor",
+    "RelativePath": "api/AuthorBooks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Checkpoint_13.Controllers.AuthorBooksController",
+    "Method": "UpdateAuthor",
+    "RelativePath": "api/AuthorBooks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "author",
+        "Type": "Checkpoint_13.Models.Author",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Checkpoint_13.Controllers.AuthorBooksController",
+    "Method": "DeleteAuthor",
+    "RelativePath": "api/AuthorBooks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

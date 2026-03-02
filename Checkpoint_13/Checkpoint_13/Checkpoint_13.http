@@ -1,0 +1,6 @@
+@Checkpoint_13_HostAddress = http://localhost:5036
+
+GET {{Checkpoint_13_HostAddress}}/api/AuthorBooks
+Accept: application/json
+
+###

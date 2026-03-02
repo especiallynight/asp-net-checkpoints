@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study\\asp_net\\Checkpoint_13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|e:\\study\\asp_net\\checkpoint_13\\checkpoint_13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|solutionrelative:checkpoint_13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|e:\\study\\asp_net\\checkpoint_13\\checkpoint_13\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|solutionrelative:checkpoint_13\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|e:\\study\\asp_net\\checkpoint_13\\checkpoint_13\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|solutionrelative:checkpoint_13\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|e:\\study\\asp_net\\checkpoint_13\\checkpoint_13\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|solutionrelative:checkpoint_13\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|e:\\study\\asp_net\\checkpoint_13\\checkpoint_13\\checkpoint_13.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|solutionrelative:checkpoint_13\\checkpoint_13.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|e:\\study\\asp_net\\checkpoint_13\\checkpoint_13\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|solutionrelative:checkpoint_13\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|e:\\study\\asp_net\\checkpoint_13\\checkpoint_13\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|solutionrelative:checkpoint_13\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|e:\\study\\asp_net\\checkpoint_13\\checkpoint_13\\controllers\\authorbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D1C158-96C8-891A-EBA2-B802250720BB}|Checkpoint_13\\Checkpoint_13.csproj|solutionrelative:checkpoint_13\\controllers\\authorbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Checkpoint_13\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Checkpoint_13\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T10:01:18.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Checkpoint_13.http",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Checkpoint_13.http",
+              "RelativeDocumentMoniker": "Checkpoint_13\\Checkpoint_13.http",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Checkpoint_13.http",
+              "RelativeToolTip": "Checkpoint_13\\Checkpoint_13.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-02T06:52:12.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Program.cs",
+              "RelativeDocumentMoniker": "Checkpoint_13\\Program.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Program.cs",
+              "RelativeToolTip": "Checkpoint_13\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:51:58.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\appsettings.json",
+              "RelativeDocumentMoniker": "Checkpoint_13\\appsettings.json",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\appsettings.json",
+              "RelativeToolTip": "Checkpoint_13\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-02T06:45:35.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthorBooksController.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Controllers\\AuthorBooksController.cs",
+              "RelativeDocumentMoniker": "Checkpoint_13\\Controllers\\AuthorBooksController.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Controllers\\AuthorBooksController.cs",
+              "RelativeToolTip": "Checkpoint_13\\Controllers\\AuthorBooksController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:42:23.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Data\\DBContext.cs",
+              "RelativeDocumentMoniker": "Checkpoint_13\\Data\\DBContext.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Data\\DBContext.cs",
+              "RelativeToolTip": "Checkpoint_13\\Data\\DBContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:39:54.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Checkpoint_13\\Models\\Book.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Models\\Book.cs",
+              "RelativeToolTip": "Checkpoint_13\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:37:25.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Author.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Checkpoint_13\\Models\\Author.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_13\\Checkpoint_13\\Models\\Author.cs",
+              "RelativeToolTip": "Checkpoint_13\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T06:37:06.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
