@@ -17,7 +17,8 @@ namespace Checkpoint_13.Data
             modelBuilder.Entity<Author>()
                 .HasMany(a => a.Books)
                 .WithOne(b => b.Author)
-                .HasForeignKey(b => b.AuthorId);
+                .HasForeignKey(b => b.AuthorId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
 
     }
