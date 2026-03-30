@@ -1,0 +1,107 @@
+﻿@model Checkpoint_8.Models.CryptoViewModel
+
+<h2>Encryption Result</h2>
+
+@if (!string.IsNullOrEmpty(Model.EncryptedText))
+{
+    <h3>Encrypted Text</h3>
+    <pre>@Model.EncryptedText</pre>
+
+    <h3>Key</h3>
+    <pre>@Model.Key</pre>
+
+    @if (Model.EncryptionAlgorithm == "RSA" && !string.IsNullOrEmpty(Model.PrivateKey))
+    {
+        <h3>Private Key</h3>
+        <pre>@Model.PrivateKey</pre>
+    }
+
+    <form method="post" asp-action="Decrypt">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="EncryptedText" value="@Model.EncryptedText" />
+        <input type="hidden" name="EncryptionAlgorithm" value="@Model.EncryptionAlgorithm" />
+        <input type="hidden" name="Key" value="@Model.Key" />
+        <input type="hidden" name="PrivateKey" value="@Model.PrivateKey" />
+        <button type="submit">Decrypt</button>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model.DecryptedText))
+    {
+        <h3>Decrypted Text</h3>
+        <pre>@Model.DecryptedText</pre>
+    }
+
+    <hr />
+}
+
+<h2>Encryption Form</h2>
+
+<form method="post" asp-action="Encrypt">
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label>Input Text:</label><br />
+        <textarea name="InputText" rows="3" cols="50" required>@Model.InputText</textarea>
+    </div>
+    <br />
+
+    <div>
+        <label>Algorithm:</label><br />
+        <select name="EncryptionAlgorithm" onchange="toggleKeyField()">
+            <option value="AES">AES</option>
+            <option value="RSA">RSA</option>
+        </select>
+    </div>
+    <br />
+
+    <div id="aesKeyDiv">
+        <label>Key (AES):</label><br />
+        <input type="text" name="Key" value="@Model.Key" style="width: 400px;" />
+        <button type="button" onclick="generateAESKey()">Generate Key</button>
+    </div>
+
+    <div id="rsaKeyDiv" style="display:none">
+        <button type="button" onclick="generateRSAKeys()">Generate RSA Keys</button>
+        <div id="rsaKeys"></div>
+    </div>
+    <br />
+
+    <button type="submit">Encrypt</button>
+</form>
+
+<script>
+    function toggleKeyField() {
+        var alg = document.querySelector('select[name="EncryptionAlgorithm"]').value;
+        document.getElementById('aesKeyDiv').style.display = alg === 'AES' ? 'block' : 'none';
+        document.getElementById('rsaKeyDiv').style.display = alg === 'RSA' ? 'block' : 'none';
+    }
+
+    function generateAESKey() {
+        fetch('/Home/GenerateAESKey', {
+            method: 'POST',
+            headers: { 'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value }
+        })
+        .then(r => r.json())
+        .then(d => document.querySelector('input[name="Key"]').value = d.key);
+    }
+
+    function generateRSAKeys() {
+        fetch('/Home/GenerateRSAKeys', {
+            method: 'POST',
+            headers: { 'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value }
+        })
+        .then(r => r.json())
+        .then(d => {
+            document.getElementById('rsaKeys').innerHTML = `
+                <p><strong>Public Key:</strong></p>
+                <textarea readonly rows="2" cols="50">${d.publicKey}</textarea>
+                <p><strong>Private Key:</strong></p>
+                <textarea readonly rows="3" cols="50">${d.privateKey}</textarea>
+                <input type="hidden" name="PublicKey" value="${d.publicKey}" />
+                <input type="hidden" name="PrivateKey" value="${d.privateKey}" />
+            `;
+        });
+    }
+
+    toggleKeyField();
+</script>
