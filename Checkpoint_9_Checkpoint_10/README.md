@@ -2,6 +2,8 @@
 
 <img width="837" height="535" alt="image" src="https://github.com/user-attachments/assets/f1a59bf2-123d-4e9e-a4dc-7d3ab3a15570" />
 <img width="797" height="645" alt="image" src="https://github.com/user-attachments/assets/4a07dc07-cb5a-4467-976d-16ccd0b6a2fe" />
+<img width="1644" height="1040" alt="image" src="https://github.com/user-attachments/assets/74adeca1-c616-489a-92ab-a9b4adcbb7cd" />
+
 
 Get для всех пользователей
 
