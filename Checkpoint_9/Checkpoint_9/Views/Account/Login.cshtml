@@ -1,0 +1,16 @@
+﻿@{
+    Layout = null;
+}
+
+<h2>Login</h2>
+
+@if (ViewData["Error"] != null)
+{
+    <p style="color:red">@ViewData["Error"]</p>
+}
+
+<form method="post">
+    <input name="email" placeholder="Email" required /><br />
+    <input name="password" type="password" placeholder="Password" required /><br />
+    <button type="submit">Login</button>
+</form>

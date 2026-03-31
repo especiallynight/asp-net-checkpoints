@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study\\asp_net\\Checkpoint_9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\views\\admin\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\views\\admin\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\views\\admin\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\views\\admin\\reports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\models\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\models\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\views\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|e:\\study\\asp_net\\checkpoint_9\\checkpoint_9\\checkpoint_9.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{308A6164-89A6-4799-8693-9FB05C606F99}|Checkpoint_9\\Checkpoint_9.csproj|solutionrelative:checkpoint_9\\checkpoint_9.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Checkpoint_9\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:31:20.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Checkpoint_9\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:12:45.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Settings.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\Settings.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Views\\Admin\\Settings.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\Settings.cshtml",
+              "RelativeToolTip": "Checkpoint_9\\Views\\Admin\\Settings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T12:07:43.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reports.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\Reports.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Views\\Admin\\Reports.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\Reports.cshtml",
+              "RelativeToolTip": "Checkpoint_9\\Views\\Admin\\Reports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T10:31:41.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "Checkpoint_9\\Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T09:18:07.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Checkpoint_9\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T09:14:09.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Checkpoint_9\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T12:48:55.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "Checkpoint_9\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T09:18:18.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "Checkpoint_9\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T12:54:09.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Checkpoint_9\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T12:23:07.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Views\\_Layout.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\_Layout.cshtml",
+              "RelativeToolTip": "Checkpoint_9\\Views\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T09:19:15.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Checkpoint_9\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T09:20:07.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Checkpoint_9\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T12:58:39.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Models\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Models\\EditUserViewModel.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Models\\EditUserViewModel.cs",
+              "RelativeToolTip": "Checkpoint_9\\Models\\EditUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T09:17:23.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateUserViewModel.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Models\\CreateUserViewModel.cs",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Models\\CreateUserViewModel.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Models\\CreateUserViewModel.cs",
+              "RelativeToolTip": "Checkpoint_9\\Models\\CreateUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T09:17:02.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\appsettings.json",
+              "RelativeDocumentMoniker": "Checkpoint_9\\appsettings.json",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\appsettings.json",
+              "RelativeToolTip": "Checkpoint_9\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T09:04:16.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Program.cs",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Program.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Program.cs",
+              "RelativeToolTip": "Checkpoint_9\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T09:04:15.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Data\\DBContext.cs",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Data\\DBContext.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Data\\DBContext.cs",
+              "RelativeToolTip": "Checkpoint_9\\Data\\DBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T09:02:58.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Checkpoint_9",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Checkpoint_9.csproj",
+              "RelativeDocumentMoniker": "Checkpoint_9\\Checkpoint_9.csproj",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Checkpoint_9.csproj",
+              "RelativeToolTip": "Checkpoint_9\\Checkpoint_9.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-31T09:02:29.765Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

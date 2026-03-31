@@ -1,0 +1,44 @@
+﻿@model Checkpoint_9.Models.EditUserViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit User</title>
+  
+</head>
+<body>
+    <h2>Edit User</h2>
+
+    @if (ViewData.ModelState.Any(m => m.Value.Errors.Any()))
+    {
+        <div class="error">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+    }
+
+    <form method="post" action="/Admin/EditUser">
+        <input type="hidden" name="Id" value="@Model.Id" />
+
+        <div>
+            <label>Email:</label><br />
+            <input type="email" name="Email" value="@Model.Email" required />
+        </div>
+        <div>
+            <label>First Name:</label><br />
+            <input type="text" name="FirstName" value="@Model.FirstName" required />
+        </div>
+        <div>
+            <label>Last Name:</label><br />
+            <input type="text" name="LastName" value="@Model.LastName" required />
+        </div>
+        <button type="submit">Save</button>
+        <a href="/Admin/Users">Cancel</a>
+    </form>
+</body>
+</html>
