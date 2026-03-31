@@ -1,0 +1,58 @@
+﻿@model Checkpoint_9.Models.CreateUserViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create User</title>
+
+</head>
+<body>
+    <h2>Create User</h2>
+    @if (TempData["Success"] != null)
+    {
+        <div class="success">
+            @TempData["Success"]
+        </div>
+    }
+
+    @if (!ViewData.ModelState.IsValid && ViewData.ModelState.Values.SelectMany(v => v.Errors).Any())
+    {
+        <div class="validation-summary">
+            <strong>Please correct the following errors:</strong>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>• @error.ErrorMessage</p>
+            }
+        </div>
+    }
+    <div asp-validation-summary="All" class="error"></div>
+
+    <form method="post" action="/Admin/CreateUser">
+        <div>
+            <label>First Name:</label><br />
+            <input name="FirstName" required />
+        </div>
+        <div>
+            <label>Last Name:</label><br />
+            <input name="LastName" required />
+        </div>
+        <div>
+            <label>Email:</label><br />
+            <input name="Email" type="email" required />
+        </div>
+        <div>
+            <label>Password:</label><br />
+            <input name="Password" type="password" required />
+        </div>
+        <div>
+            <label>Confirm Password:</label><br />
+            <input name="ConfirmPassword" type="password" required />
+        </div>
+        <button type="submit">Create</button>
+        <a href="/Admin/Users">Cancel</a>
+    </form>
+</body>
+</html>
