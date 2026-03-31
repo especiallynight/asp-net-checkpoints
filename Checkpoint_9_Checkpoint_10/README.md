@@ -1,4 +1,4 @@
-<img width="1280" height="939" alt="image" src="https://github.com/user-attachments/assets/26950f05-9194-4df7-95ff-8a6f615a6335" /><img width="1280" height="794" alt="image" src="https://github.com/user-attachments/assets/6a3f6d2d-7aec-4c6c-9427-bf2492a1a4f2" />Валидация 
+Валидация 
 
 <img width="837" height="535" alt="image" src="https://github.com/user-attachments/assets/f1a59bf2-123d-4e9e-a4dc-7d3ab3a15570" />
 <img width="797" height="645" alt="image" src="https://github.com/user-attachments/assets/4a07dc07-cb5a-4467-976d-16ccd0b6a2fe" />
