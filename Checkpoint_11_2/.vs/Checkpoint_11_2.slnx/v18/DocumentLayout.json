@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study\\asp_net\\Checkpoint_11_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F11B23C0-44EE-4A7C-8EF1-F7E96D7A5A7F}|Checkpoint_11_2\\Checkpoint_11_2.csproj|e:\\study\\asp_net\\checkpoint_11_2\\checkpoint_11_2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11B23C0-44EE-4A7C-8EF1-F7E96D7A5A7F}|Checkpoint_11_2\\Checkpoint_11_2.csproj|solutionrelative:checkpoint_11_2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11B23C0-44EE-4A7C-8EF1-F7E96D7A5A7F}|Checkpoint_11_2\\Checkpoint_11_2.csproj|e:\\study\\asp_net\\checkpoint_11_2\\checkpoint_11_2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F11B23C0-44EE-4A7C-8EF1-F7E96D7A5A7F}|Checkpoint_11_2\\Checkpoint_11_2.csproj|solutionrelative:checkpoint_11_2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11B23C0-44EE-4A7C-8EF1-F7E96D7A5A7F}|Checkpoint_11_2\\Checkpoint_11_2.csproj|e:\\study\\asp_net\\checkpoint_11_2\\checkpoint_11_2\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11B23C0-44EE-4A7C-8EF1-F7E96D7A5A7F}|Checkpoint_11_2\\Checkpoint_11_2.csproj|solutionrelative:checkpoint_11_2\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_11_2\\Checkpoint_11_2\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Checkpoint_11_2\\Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_11_2\\Checkpoint_11_2\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Checkpoint_11_2\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T13:05:35.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EncryptionService.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_11_2\\Checkpoint_11_2\\Services\\EncryptionService.cs",
+              "RelativeDocumentMoniker": "Checkpoint_11_2\\Services\\EncryptionService.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_11_2\\Checkpoint_11_2\\Services\\EncryptionService.cs",
+              "RelativeToolTip": "Checkpoint_11_2\\Services\\EncryptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T13:04:50.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_11_2\\Checkpoint_11_2\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_11_2\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_11_2\\Checkpoint_11_2\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Checkpoint_11_2\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T13:04:02.725Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "28dqRPIMxVI=",
+  "success": true,
+  "projectFilePath": "E:\\Study\\asp_net\\Checkpoint_11_2\\Checkpoint_11_2\\Checkpoint_11_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\degty\\.nuget\\packages\\libsodium\\1.0.20.1\\libsodium.1.0.20.1.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\sodium.core\\1.4.0\\sodium.core.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

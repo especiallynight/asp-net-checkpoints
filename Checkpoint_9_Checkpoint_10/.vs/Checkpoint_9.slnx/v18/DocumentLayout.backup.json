@@ -102,8 +102,7 @@
               "RelativeToolTip": "Checkpoint_9\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAAAUwI8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T16:50:34.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T16:50:34.204Z"
             },
             {
               "$type": "Document",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "Checkpoint_9\\Views\\Admin\\CreateUser.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAcwCMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T09:18:18.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T09:18:18.36Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,7 @@
               "RelativeToolTip": "Checkpoint_9\\Models\\CreateUserViewModel.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA/wBYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T09:17:02.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T09:17:02.435Z"
             },
             {
               "$type": "Document",
@@ -141,8 +138,7 @@
               "RelativeToolTip": "Checkpoint_9\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T09:20:07.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T09:20:07.801Z"
             },
             {
               "$type": "Document",
@@ -154,8 +150,7 @@
               "RelativeToolTip": "Checkpoint_9\\Models\\EditUserViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T09:17:23.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T09:17:23.966Z"
             },
             {
               "$type": "Document",
@@ -167,8 +162,7 @@
               "RelativeToolTip": "Checkpoint_9\\Views\\Admin\\Reports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T10:31:41.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T10:31:41.282Z"
             },
             {
               "$type": "Document",
@@ -180,8 +174,7 @@
               "RelativeToolTip": "Checkpoint_9\\Views\\Admin\\EditUser.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAcwBEAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T09:18:07.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T09:18:07.852Z"
             },
             {
               "$type": "Document",
@@ -193,8 +186,7 @@
               "RelativeToolTip": "Checkpoint_9\\Views\\Admin\\Users.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAwwCAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T12:54:09.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T12:54:09.497Z"
             },
             {
               "$type": "Document",
@@ -204,7 +196,7 @@
               "RelativeDocumentMoniker": "Checkpoint_9\\Program.cs",
               "ToolTip": "E:\\Study\\asp_net\\Checkpoint_9\\Checkpoint_9\\Program.cs",
               "RelativeToolTip": "Checkpoint_9\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T09:04:15.597Z",
               "EditorCaption": ""
@@ -219,8 +211,7 @@
               "RelativeToolTip": "Checkpoint_9\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-31T09:04:16.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T09:04:16.359Z"
             },
             {
               "$type": "Document",
@@ -232,8 +223,7 @@
               "RelativeToolTip": "Checkpoint_9\\Controllers\\HomeController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T12:12:45.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T12:12:45.119Z"
             },
             {
               "$type": "Document",
@@ -245,8 +235,7 @@
               "RelativeToolTip": "Checkpoint_9\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAkwGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T09:14:09.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T09:14:09.851Z"
             },
             {
               "$type": "Document",
@@ -258,8 +247,7 @@
               "RelativeToolTip": "Checkpoint_9\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAgwCIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T12:31:20.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T12:31:20.4Z"
             },
             {
               "$type": "Document",
@@ -271,8 +259,7 @@
               "RelativeToolTip": "Checkpoint_9\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T12:23:07.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T12:23:07.301Z"
             },
             {
               "$type": "Document",

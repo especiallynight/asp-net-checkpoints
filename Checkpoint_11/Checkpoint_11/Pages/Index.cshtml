@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>AES Encryption and Decryption</h1>
+
+<form method="post">
+    <div>
+        <label for="inputText">Input Text:</label>
+        <textarea id="inputText" name="inputText" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+        <button type="submit" name="action" value="encrypt">Encrypt</button>
+        <button type="submit" name="action" value="decrypt">Decrypt</button>
+    </div>
+</form>
+
+@if (Model.Result != null)
+{
+    <h2>Result:</h2>
+    <p>@Model.Result</p>
+}

@@ -1,0 +1,24 @@
+﻿@page
+@model EncryptDecryptModel
+@{
+    ViewData["Title"] = "Шифрование и Дешифрование";
+}
+
+<h2>Шифрование и Дешифрование</h2>
+
+<form method="post">
+    <div>
+        <label for="plaintext">Введите текст для шифрования:</label>
+        <input type="text" id="plaintext" name="plaintext" />
+    </div>
+    <button type="submit">Зашифровать</button>
+</form>
+
+@if (Model.EncryptedText != null)
+{
+    <h3>Зашифрованный текст:</h3>
+    <p>@Model.EncryptedText</p>
+
+    <h3>Дешифрованный текст:</h3>
+    <p>@Model.DecryptedText</p>
+}
