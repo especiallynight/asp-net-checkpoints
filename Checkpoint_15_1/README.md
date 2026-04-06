@@ -1,5 +1,6 @@
 
 Задание 2
+
 Задание 1 из презентации тоже делала,в коде как раз оно и есть,просто переделанное под 2 задание из презентации
 
-<img width="1280" height="440" alt="image" src="https://github.com/user-attachments/assets/c398c6d0-dcdf-4b52-be73-ef27d3495a50" /><img width="1280" height="440" alt="image" src="https://github.com/user-attachments/assets/4fa58fbf-0d07-428e-8da7-46e908baa6a1" />
+<img width="1280" height="440" alt="image" src="https://github.com/user-attachments/assets/c398c6d0-dcdf-4b52-be73-ef27d3495a50" />
