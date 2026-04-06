@@ -1,0 +1,44 @@
+﻿@implements IDisposable
+@using Checkpoint_15_2.Services
+@inject NavigationManager NavigationManager
+@inject LocalizationService Loc
+
+@if (showNotification)
+{
+    <div class="notification @notificationType">
+        <strong>@Loc.GetText("NavigatedTo"):</strong> @lastLocation
+        <button @onclick="HideNotification" class="close-btn">✖️</button>
+    </div>
+}
+
+@code {
+    private bool showNotification;
+    private string lastLocation = string.Empty;
+    private string notificationType = "info";
+
+    protected override void OnInitialized()
+    {
+        NavigationManager.LocationChanged += OnLocationChanged;
+
+        Loc.OnLanguageChanged += StateHasChanged;
+    }
+
+    private void OnLocationChanged(object sender, LocationChangedEventArgs e)
+    {
+        lastLocation = e.Location;
+        showNotification = true;
+        StateHasChanged();
+    }
+
+    private void HideNotification()
+    {
+        showNotification = false;
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+        Loc.OnLanguageChanged -= StateHasChanged;
+    }
+}

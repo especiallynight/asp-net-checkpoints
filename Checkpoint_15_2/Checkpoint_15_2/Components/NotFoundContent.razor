@@ -1,0 +1,29 @@
+﻿@using Checkpoint_15_2.Services
+@implements IDisposable
+@inject LocalizationService LocalizationService
+
+<div class="container text-center mt-5">
+    <div class="alert alert-warning">
+        <h1>@GetText("NotFoundTitle")</h1>
+        <a href="/" class="btn btn-primary">@GetText("GoToHome")</a>
+    </div>
+</div>
+
+@code {
+    protected override void OnInitialized()
+    {
+        LocalizationService.OnLanguageChanged += OnLanguageChanged;
+    }
+
+    private void OnLanguageChanged()
+    {
+        StateHasChanged();
+    }
+
+    private string GetText(string key) => LocalizationService.GetText(key);
+
+    public void Dispose()
+    {
+        LocalizationService.OnLanguageChanged -= OnLanguageChanged;
+    }
+}

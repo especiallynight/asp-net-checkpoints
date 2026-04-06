@@ -1,0 +1,27 @@
+﻿@page "/details/{id:int}"
+@using Checkpoint_15_2.Services
+@implements IDisposable
+@inject NavigationManager NavigationManager
+@inject LocalizationService Loc
+
+<h3>@Loc.GetText("Details"): @Id</h3>
+
+<button class="btn btn-secondary" @onclick="BackToProducts">
+    @Loc.GetText("BackToProducts")
+</button>
+
+@code {
+    [Parameter] public int Id { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Loc.OnLanguageChanged += StateHasChanged;
+    }
+
+    private void BackToProducts() => NavigationManager.NavigateTo("/products");
+
+    public void Dispose()
+    {
+        Loc.OnLanguageChanged -= StateHasChanged;
+    }
+}

@@ -1,0 +1,22 @@
+﻿@using Checkpoint_15_2.Services
+@inject LocalizationService LocalizationService
+@inject NavigationManager NavigationManager
+
+<div class="language-switcher">
+    <button @onclick='() => LocalizationService.SetLanguage("RU")'>RU</button>
+    <button @onclick='() => LocalizationService.SetLanguage("EN")'>EN</button>
+    <span>Текущий язык: @LocalizationService.CurrentLanguage</span>
+</div>
+
+@code {
+    private string GetLangClass(string lang)
+    {
+        return LocalizationService.CurrentLanguage == lang ? "active" : "";
+    }
+
+    private void SetLanguage(string lang)
+    {
+        LocalizationService.SetLanguage(lang);
+        StateHasChanged();
+    }
+}

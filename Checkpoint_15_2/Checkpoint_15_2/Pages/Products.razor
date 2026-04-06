@@ -1,0 +1,42 @@
+﻿@page "/products/{category?}"
+@using Checkpoint_15_2.Services
+@implements IDisposable
+@inject NavigationManager NavigationManager
+@inject LocalizationService Loc
+
+<h3>@Loc.GetText("Products"): @GetCategoryDisplay()</h3>
+
+<button class="btn btn-primary" @onclick="GoToDetails">
+    @Loc.GetText("GoToDetails")
+</button>
+
+@code {
+    [Parameter]
+    public string? Category { get; set; }
+
+    private string GetCategoryDisplay()
+    {
+        if (string.IsNullOrEmpty(Category))
+            return Loc.GetText("All");
+
+        if (Category == "details")
+            return Loc.GetText("All");
+
+        return Category;
+    }
+
+    protected override void OnInitialized()
+    {
+        Loc.OnLanguageChanged += StateHasChanged;
+    }
+
+    private void GoToDetails()
+    {
+        NavigationManager.NavigateTo("/details/1");
+    }
+
+    public void Dispose()
+    {
+        Loc.OnLanguageChanged -= StateHasChanged;
+    }
+}

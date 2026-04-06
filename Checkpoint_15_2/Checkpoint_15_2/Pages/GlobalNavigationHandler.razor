@@ -1,0 +1,22 @@
+﻿@implements IDisposable
+@using Checkpoint_15_2.Services
+@inject NavigationManager NavigationManager
+@inject LocalizationService Loc
+
+@code {
+    protected override void OnInitialized()
+    {
+        NavigationManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object sender, LocationChangedEventArgs e)
+    {
+        string logMessage = Loc.GetText("LogRouteChanged");
+        Console.WriteLine($"{logMessage}: {e.Location}");
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+}

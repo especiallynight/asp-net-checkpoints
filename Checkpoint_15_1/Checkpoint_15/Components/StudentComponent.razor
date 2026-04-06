@@ -1,0 +1,58 @@
+﻿@namespace Checkpoint_15.Components
+
+@code {
+    public class Student
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+    }
+    private List<Student> students = new List<Student>();
+    [Parameter]
+    public string Title { get; set; } = "Students";
+
+    private int age;
+    private string name;
+
+    private void IncrementAge()
+    {
+        age++;
+    }
+
+    private void ResetAge()
+    {
+        age = 0;
+    }
+    public void AddStudent()
+    {
+        if (!string.IsNullOrWhiteSpace(name) && age > 0)
+        {
+            students.Add(new Student { Name = name, Age = age });
+            name = string.Empty;
+            ResetAge();
+        }
+    }
+}
+
+
+<h3>@Title</h3>
+<form @onsubmit="AddStudent">
+    <label>Введите Имя:</label>
+    <input type="text" @bind="name" />
+    <label>Введите Возраст:</label>
+    <input type="number" @bind="age" />
+
+    <button type="submit">Добавить студента</button>
+</form>
+
+
+
+<button @onclick="IncrementAge">Increment age</button>
+<button @onclick="ResetAge">Reset age</button>
+
+<h4>Список студентов:</h4>
+<ul>
+    @foreach (var student in students)
+    {
+        <li>@student.Name - @student.Age лет</li>
+    }
+</ul>

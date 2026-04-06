@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "GNe9B3UJByQ=",
+  "success": true,
+  "projectFilePath": "E:\\Study\\asp_net\\Checkpoint_15_2\\Checkpoint_15_2\\Checkpoint_15_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\degty\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\microsoft.extensions.localization\\10.0.5\\microsoft.extensions.localization.10.0.5.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\10.0.5\\microsoft.extensions.localization.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.5\\microsoft.extensions.logging.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\microsoft.extensions.options\\10.0.5\\microsoft.extensions.options.10.0.5.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.5\\microsoft.extensions.primitives.10.0.5.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\system.buffers\\4.6.1\\system.buffers.4.6.1.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.5\\system.diagnostics.diagnosticsource.10.0.5.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.1.2\\system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

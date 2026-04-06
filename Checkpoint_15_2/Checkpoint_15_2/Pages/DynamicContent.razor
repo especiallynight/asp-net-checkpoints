@@ -1,0 +1,34 @@
+﻿@page "/dynamic-content/{type}"
+@using Checkpoint_15_2.Services
+@implements IDisposable
+@inject LocalizationService Loc
+
+<div class="container mt-4">
+    @if (Type == "products")
+    {
+        <h2>@Loc.GetText("ProductList")</h2>
+    }
+    else if (Type == "services")
+    {
+        <h2>@Loc.GetText("ServiceList")</h2>
+    }
+    else
+    {
+        <h2>@Loc.GetText("UnknownType")</h2>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string? Type { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Loc.OnLanguageChanged += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        Loc.OnLanguageChanged -= StateHasChanged;
+    }
+}
