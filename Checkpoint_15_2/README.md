@@ -1,17 +1,7 @@
-create student
-<img width="1280" height="992" alt="image" src="https://github.com/user-attachments/assets/6b7be241-be2a-4601-a3f2-d77f11f59758" />
-get students
-<img width="1280" height="667" alt="image" src="https://github.com/user-attachments/assets/b33b5f77-9437-4ccf-8e65-722b8a5ea9b7" />
-put student
-<img width="1280" height="827" alt="image" src="https://github.com/user-attachments/assets/9a9c05a8-3427-40c1-9c10-1a218fd337e3" />
-create teacher
-<img width="1280" height="885" alt="image" src="https://github.com/user-attachments/assets/3fb4ea5b-f360-4e1d-95ae-a040abcf4ada" />
-create course
-<img width="1280" height="897" alt="image" src="https://github.com/user-attachments/assets/d3990c00-c6c5-4f0d-8c66-e701d1857699" />
-записать студента на курс
-<img width="1280" height="772" alt="image" src="https://github.com/user-attachments/assets/1d5eccc3-18a9-43f9-856d-fc9d0c925252" />
-назначить преподавателя на курс
-<img width="1280" height="731" alt="image" src="https://github.com/user-attachments/assets/90027fc0-7503-4ab1-a002-516eb58fdca9" />
-delete course
-<img width="1280" height="668" alt="image" src="https://github.com/user-attachments/assets/c82301f3-e4a6-4c2f-8257-872d559df510" />
-
+<img width="1015" height="599" alt="image" src="https://github.com/user-attachments/assets/3fa64bc3-2741-48a9-a89c-9eca88c7ebc2" />
+<img width="900" height="560" alt="image" src="https://github.com/user-attachments/assets/7c4b82ff-31c6-432c-afd0-660197eed3ce" />
+<img width="926" height="582" alt="image" src="https://github.com/user-attachments/assets/8dd7affd-9ffd-4b88-b3a7-2592a9987d1c" />
+<img width="1079" height="617" alt="image" src="https://github.com/user-attachments/assets/bad66033-d9f1-43e7-b816-d3fb4a54cf45" />
+<img width="1280" height="565" alt="image" src="https://github.com/user-attachments/assets/a20c4275-06c7-4373-b28b-858c201f9f68" />
+<img width="1246" height="615" alt="image" src="https://github.com/user-attachments/assets/e1ffcd86-a701-485e-9e4a-1437080afe93" />
+<img width="1084" height="595" alt="image" src="https://github.com/user-attachments/assets/dc1a1c7f-4bc7-488f-bebd-56d507faa6cf" />
