@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Study\\asp_net\\Checkpoint_15\\Checkpoint_15\\Checkpoint_15.csproj",
+      "projectUniqueName": "E:\\Study\\asp_net\\Checkpoint_15_1\\Checkpoint_15\\Checkpoint_15.csproj",
       "projectName": "Checkpoint_15",
-      "projectPath": "E:\\Study\\asp_net\\Checkpoint_15\\Checkpoint_15\\Checkpoint_15.csproj",
+      "projectPath": "E:\\Study\\asp_net\\Checkpoint_15_1\\Checkpoint_15\\Checkpoint_15.csproj",
       "packagesPath": "C:\\Users\\degty\\.nuget\\packages\\",
-      "outputPath": "E:\\Study\\asp_net\\Checkpoint_15\\Checkpoint_15\\obj\\",
+      "outputPath": "E:\\Study\\asp_net\\Checkpoint_15_1\\Checkpoint_15\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

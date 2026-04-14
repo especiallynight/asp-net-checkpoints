@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Study\\asp_net\\Checkpoint_15\\",
+  "WorkspaceRootPath": "E:\\Study\\asp_net\\Checkpoint_15_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43238F72-B105-47C9-BAFE-FCDE16CE2D38}|Checkpoint_15\\Checkpoint_15.csproj|e:\\study\\asp_net\\checkpoint_15\\checkpoint_15\\components\\studentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43238F72-B105-47C9-BAFE-FCDE16CE2D38}|Checkpoint_15\\Checkpoint_15.csproj|solutionrelative:checkpoint_15\\components\\studentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCDDB062-0AFD-C7A2-6466-2F0EB8AF01AA}|Checkpoint_15\\Checkpoint_15.csproj|e:\\study\\asp_net\\checkpoint_15_1\\checkpoint_15\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCDDB062-0AFD-C7A2-6466-2F0EB8AF01AA}|Checkpoint_15\\Checkpoint_15.csproj|solutionrelative:checkpoint_15\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43238F72-B105-47C9-BAFE-FCDE16CE2D38}|Checkpoint_15\\Checkpoint_15.csproj|e:\\study\\asp_net\\checkpoint_15\\checkpoint_15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43238F72-B105-47C9-BAFE-FCDE16CE2D38}|Checkpoint_15\\Checkpoint_15.csproj|solutionrelative:checkpoint_15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCDDB062-0AFD-C7A2-6466-2F0EB8AF01AA}|Checkpoint_15\\Checkpoint_15.csproj|e:\\study\\asp_net\\checkpoint_15_1\\checkpoint_15\\components\\studentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCDDB062-0AFD-C7A2-6466-2F0EB8AF01AA}|Checkpoint_15\\Checkpoint_15.csproj|solutionrelative:checkpoint_15\\components\\studentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43238F72-B105-47C9-BAFE-FCDE16CE2D38}|Checkpoint_15\\Checkpoint_15.csproj|e:\\study\\asp_net\\checkpoint_15\\checkpoint_15\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{43238F72-B105-47C9-BAFE-FCDE16CE2D38}|Checkpoint_15\\Checkpoint_15.csproj|solutionrelative:checkpoint_15\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCDDB062-0AFD-C7A2-6466-2F0EB8AF01AA}|Checkpoint_15\\Checkpoint_15.csproj|e:\\study\\asp_net\\checkpoint_15_1\\checkpoint_15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCDDB062-0AFD-C7A2-6466-2F0EB8AF01AA}|Checkpoint_15\\Checkpoint_15.csproj|solutionrelative:checkpoint_15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +22,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_15\\Checkpoint_15\\Program.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_15_1\\Checkpoint_15\\Program.cs",
               "RelativeDocumentMoniker": "Checkpoint_15\\Program.cs",
-              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_15\\Checkpoint_15\\Program.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_15_1\\Checkpoint_15\\Program.cs",
               "RelativeToolTip": "Checkpoint_15\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T12:08:59.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T12:08:59.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.razor",
-              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_15\\Checkpoint_15\\Pages\\Index.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_15_1\\Checkpoint_15\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "Checkpoint_15\\Pages\\Index.razor",
-              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_15\\Checkpoint_15\\Pages\\Index.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_15_1\\Checkpoint_15\\Pages\\Index.razor",
               "RelativeToolTip": "Checkpoint_15\\Pages\\Index.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -52,11 +51,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StudentComponent.razor",
-              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_15\\Checkpoint_15\\Components\\StudentComponent.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_15_1\\Checkpoint_15\\Components\\StudentComponent.razor",
               "RelativeDocumentMoniker": "Checkpoint_15\\Components\\StudentComponent.razor",
-              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_15\\Checkpoint_15\\Components\\StudentComponent.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_15_1\\Checkpoint_15\\Components\\StudentComponent.razor",
               "RelativeToolTip": "Checkpoint_15\\Components\\StudentComponent.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

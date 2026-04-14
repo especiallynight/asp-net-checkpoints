@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study\\asp_net\\Checkpoint_16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB21C53B-77BA-4FAB-9964-F13C8BB9335E}|Checkpoint_16\\Checkpoint_16.csproj|e:\\study\\asp_net\\checkpoint_16\\checkpoint_16\\components\\feedbackform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB21C53B-77BA-4FAB-9964-F13C8BB9335E}|Checkpoint_16\\Checkpoint_16.csproj|solutionrelative:checkpoint_16\\components\\feedbackform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB21C53B-77BA-4FAB-9964-F13C8BB9335E}|Checkpoint_16\\Checkpoint_16.csproj|e:\\study\\asp_net\\checkpoint_16\\checkpoint_16\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB21C53B-77BA-4FAB-9964-F13C8BB9335E}|Checkpoint_16\\Checkpoint_16.csproj|solutionrelative:checkpoint_16\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB21C53B-77BA-4FAB-9964-F13C8BB9335E}|Checkpoint_16\\Checkpoint_16.csproj|e:\\study\\asp_net\\checkpoint_16\\checkpoint_16\\components\\formcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB21C53B-77BA-4FAB-9964-F13C8BB9335E}|Checkpoint_16\\Checkpoint_16.csproj|solutionrelative:checkpoint_16\\components\\formcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FeedbackForm.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_16\\Checkpoint_16\\Components\\FeedbackForm.razor",
+              "RelativeDocumentMoniker": "Checkpoint_16\\Components\\FeedbackForm.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_16\\Checkpoint_16\\Components\\FeedbackForm.razor",
+              "RelativeToolTip": "Checkpoint_16\\Components\\FeedbackForm.razor",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-14T16:58:40.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_16\\Checkpoint_16\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Checkpoint_16\\Pages\\Index.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_16\\Checkpoint_16\\Pages\\Index.razor",
+              "RelativeToolTip": "Checkpoint_16\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-14T16:36:49.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormComponent.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_16\\Checkpoint_16\\Components\\FormComponent.razor",
+              "RelativeDocumentMoniker": "Checkpoint_16\\Components\\FormComponent.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_16\\Checkpoint_16\\Components\\FormComponent.razor",
+              "RelativeToolTip": "Checkpoint_16\\Components\\FormComponent.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwC4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-14T16:20:05.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

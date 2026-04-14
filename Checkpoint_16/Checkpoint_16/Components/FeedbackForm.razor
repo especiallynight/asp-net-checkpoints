@@ -1,0 +1,81 @@
+﻿@page "/FeedbackForm"
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "Default Title";
+    private string userName = string.Empty;
+    private string userEmail = string.Empty;
+    private string userMessage = string.Empty;
+    private bool isFormValid = true;
+    private string validationMessage = string.Empty;
+    private bool isSubmitted = false; 
+
+    private void HandleNameInput(ChangeEventArgs e)
+    {
+        userName = e.Value.ToString();
+        ValidateForm();
+    }
+
+    private void HandleEmailInput(ChangeEventArgs e)
+    {
+        userEmail = e.Value.ToString();
+        ValidateForm();
+    }
+
+    private void HandleMessageInput(ChangeEventArgs e)
+    {
+        userMessage = e.Value.ToString();
+        ValidateForm();
+    }
+
+    private void ResetForm()
+    {
+        userName = string.Empty;
+        userEmail = string.Empty;
+        userMessage = string.Empty;
+        isFormValid = true;
+        validationMessage = string.Empty;
+        isSubmitted = false; 
+    }
+
+    private void SendForm()
+    {
+        if (isFormValid)
+        {
+            validationMessage = "Форма отправлена!";
+            isSubmitted = true; 
+        }
+    }
+
+    private void ValidateForm()
+    {
+        isFormValid = !string.IsNullOrWhiteSpace(userName) &&
+                      !string.IsNullOrWhiteSpace(userEmail) &&
+                      !string.IsNullOrWhiteSpace(userMessage);
+
+        validationMessage = isFormValid ? string.Empty : "Пожалуйста, заполните все поля.";
+    }
+}
+
+<h3>Event Handling Example</h3>
+
+<form>
+    <input @oninput="HandleNameInput" type="text" name="name" value="@userName" placeholder="Имя пользователя" />
+    <input @oninput="HandleEmailInput" type="email" name="email" value="@userEmail" placeholder="Email" />
+    <input @oninput="HandleMessageInput" type="text" name="message" value="@userMessage" placeholder="Сообщение" />
+
+    <button type="button" @onclick="ResetForm">Очистить</button>
+    <button type="button" @onclick="SendForm">Отправить</button>
+
+    @if (!isFormValid)
+    {
+        <p style="color:red;">@validationMessage</p>
+    }
+    @if (isSubmitted) 
+    {
+        <p style="color:green;">@validationMessage</p>
+        <p>Имя пользователя: @userName</p>
+        <p>Email: @userEmail</p>
+        <p>Сообщение: @userMessage</p>
+    }
+</form>

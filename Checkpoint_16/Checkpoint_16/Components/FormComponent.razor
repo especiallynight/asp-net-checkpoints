@@ -1,0 +1,47 @@
+﻿
+@code {
+    [Parameter]
+    public string Title { get; set; } = "Default Title";
+    private string userName = string.Empty;
+    private int userAge = 0;
+    private string selectedGender = "Female";
+
+    private void HandleNameInput(ChangeEventArgs e)
+    {
+        userName = e.Value.ToString();
+    }
+
+    private void HandleAgeInput(ChangeEventArgs e)
+    {
+        userAge = int.Parse(e.Value.ToString());
+    }
+
+    private void HandleGenderChange(ChangeEventArgs e)
+    {
+        selectedGender = e.Value.ToString();
+    }
+
+    private void ResetForm()
+    {
+        userName = string.Empty;
+        userAge = 0;
+        selectedGender = "Female";
+    }
+}
+
+<h3>Event Handling Example</h3>
+
+
+<form >
+    <input @oninput="HandleNameInput" type="text" name="name" value="@userName" />
+    <input @oninput="HandleAgeInput" type="number" name="age" value="@userAge" />
+    <select @onchange="HandleGenderChange" value="@selectedGender">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+    </select>
+    <button type="button" @onclick="ResetForm">Reset</button>
+</form>
+
+<p>User Name: @userName</p>
+<p>User Age: @userAge</p>
+<p>Selected Gender: @selectedGender</p>
