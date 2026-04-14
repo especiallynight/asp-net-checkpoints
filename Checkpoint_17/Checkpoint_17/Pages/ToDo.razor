@@ -1,0 +1,59 @@
+﻿@page "/todo"
+@code {
+    private string newTask;
+    private List<TaskItem> tasks = new List<TaskItem>();
+
+    private void AddTask()
+    {
+        if (!string.IsNullOrEmpty(newTask))
+        {
+            tasks.Add(new TaskItem { Name = newTask, Date = DateOnly.FromDateTime(DateTime.Now), IsComplete = false });
+            newTask = string.Empty;
+        }
+    }
+
+    private void ToggleTaskCompletion(TaskItem task)
+    {
+        task.IsComplete = !task.IsComplete;
+    }
+
+    private class TaskItem
+    {
+        public string Name { get; set; }
+        public DateOnly Date { get; set; }
+        public bool IsComplete { get; set; }
+    }
+}
+
+<h3>To-Do List</h3>
+<input @bind="newTask" placeholder="Enter a new task" />
+<button @onclick="AddTask">Add</button>
+
+<ul>
+@foreach (var task in tasks)
+{
+    <li>
+        <input type="checkbox" @bind="task.IsComplete"  />
+        @task.Name
+        @task.Date.ToString("dd.MM.yyyy")
+    </li>
+}
+</ul>
+<h3>Выполненные задачи</h3>
+<ul>
+    @if (!tasks.Any(t => t.IsComplete))
+    {
+        <p>Выполненных задач пока нет</p>
+    }
+    else
+    {
+        @foreach (var task in tasks)
+        {
+            @if (task.IsComplete)
+            {
+                <li>@task.Name</li>
+            }
+        }
+    }
+    
+</ul>

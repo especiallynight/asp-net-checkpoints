@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study\\asp_net\\Checkpoint_17\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94DD3307-44BD-4CFA-9A7B-17AA5B466782}|Checkpoint_17\\Checkpoint_17.csproj|e:\\study\\asp_net\\checkpoint_17\\checkpoint_17\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94DD3307-44BD-4CFA-9A7B-17AA5B466782}|Checkpoint_17\\Checkpoint_17.csproj|solutionrelative:checkpoint_17\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94DD3307-44BD-4CFA-9A7B-17AA5B466782}|Checkpoint_17\\Checkpoint_17.csproj|e:\\study\\asp_net\\checkpoint_17\\checkpoint_17\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94DD3307-44BD-4CFA-9A7B-17AA5B466782}|Checkpoint_17\\Checkpoint_17.csproj|solutionrelative:checkpoint_17\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_17\\Checkpoint_17\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Checkpoint_17\\MainLayout.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_17\\Checkpoint_17\\MainLayout.razor",
+              "RelativeToolTip": "Checkpoint_17\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-14T17:39:49.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToDo.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_17\\Checkpoint_17\\Pages\\ToDo.razor",
+              "RelativeDocumentMoniker": "Checkpoint_17\\Pages\\ToDo.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_17\\Checkpoint_17\\Pages\\ToDo.razor",
+              "RelativeToolTip": "Checkpoint_17\\Pages\\ToDo.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-14T17:32:57.492Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
