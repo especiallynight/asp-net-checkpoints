@@ -1,0 +1,56 @@
+﻿@using Microsoft.JSInterop
+@inject IJSRuntime JS
+
+<div class="card shadow-sm border-0">
+    <div class="card-body">
+        <h3 class="h5 mb-4">Данные о продажах</h3>
+
+        <div class="row mb-4 text-center">
+            <div class="col border-end">
+                <div class="text-muted small">Всего</div>
+                <div class="fw-bold">@CurrentSalesData.Sum(x => x.Amount)</div>
+            </div>
+            <div class="col">
+                <div class="text-muted small">Среднее</div>
+                <div class="fw-bold">@Math.Round(CurrentSalesData.Average(x => x.Amount), 0)</div>
+            </div>
+        </div>
+
+        <div style="position: relative; height: 300px; width: 100%;">
+            <canvas id="salesChart"></canvas>
+        </div>
+
+        <table class="table table-sm mt-3">
+            <thead><tr><th>Месяц</th><th class="text-end">Сумма</th></tr></thead>
+            <tbody>
+                @foreach (var item in CurrentSalesData)
+                {
+                    <tr><td>@item.Label</td><td class="text-end">@item.Amount</td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@code {
+    public class SalesPoint { public string Label { get; set; } public double Amount { get; set; } }
+
+    private List<SalesPoint> CurrentSalesData = new()
+    {
+        new() { Label = "Январь", Amount = 1200 },
+        new() { Label = "Февраль", Amount = 2100 },
+        new() { Label = "Март", Amount = 1500 },
+        new() { Label = "Апрель", Amount = 2800 }
+    };
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("drawChart",
+                CurrentSalesData.Select(x => x.Label),
+                CurrentSalesData.Select(x => x.Amount));
+        }
+    }
+
+}

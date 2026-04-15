@@ -1,0 +1,43 @@
+﻿@using System.Reflection
+@using Microsoft.AspNetCore.Components.WebAssembly.Services
+
+<Router AppAssembly="@typeof(App).Assembly"
+        AdditionalAssemblies="@lazyAssemblies"
+        OnNavigateAsync="OnNavigateAsync">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p>Page not found</p>
+        </LayoutView>
+    </NotFound>
+</Router>
+
+@code {
+    private List<Assembly> lazyAssemblies = new();
+
+    [Inject]
+    public LazyAssemblyLoader? AssemblyLoader { get; set; }
+
+    private async Task OnNavigateAsync(NavigationContext context)
+    {
+        if (context.Path.Contains("saleschart", StringComparison.OrdinalIgnoreCase))
+        {
+            if (!lazyAssemblies.Any(a => a.GetName().Name == "SalesChartFeature"))
+            {
+                try
+                {
+                    var assemblies = await AssemblyLoader.LoadAssembliesAsync(
+                        new[] { "SalesChartFeature.dll" } 
+                    );
+                    lazyAssemblies.AddRange(assemblies);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                }
+            }
+        }
+    }
+}

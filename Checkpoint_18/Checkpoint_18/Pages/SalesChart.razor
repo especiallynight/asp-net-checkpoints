@@ -1,0 +1,17 @@
+﻿@page "/saleschart"
+@using Checkpoint_18.Components
+@using Microsoft.AspNetCore.Components.WebAssembly.Services
+@inject LazyAssemblyLoader AssemblyLoader
+@using SalesChartFeature
+
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await AssemblyLoader.LoadAssembliesAsync(new[] { "SalesChartFeature.dll" });
+    }
+}
+
+<SalesChartComponent />
+
+

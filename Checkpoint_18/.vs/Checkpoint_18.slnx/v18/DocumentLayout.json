@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study\\asp_net\\Checkpoint_18\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|e:\\study\\asp_net\\checkpoint_18\\checkpoint_18\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|solutionrelative:checkpoint_18\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|e:\\study\\asp_net\\checkpoint_18\\checkpoint_18\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|solutionrelative:checkpoint_18\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|e:\\study\\asp_net\\checkpoint_18\\checkpoint_18\\wwwroot\\js\\charts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|solutionrelative:checkpoint_18\\wwwroot\\js\\charts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|e:\\study\\asp_net\\checkpoint_18\\checkpoint_18\\components\\saleschartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|solutionrelative:checkpoint_18\\components\\saleschartcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|e:\\study\\asp_net\\checkpoint_18\\checkpoint_18\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|solutionrelative:checkpoint_18\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|e:\\study\\asp_net\\checkpoint_18\\checkpoint_18\\pages\\saleschart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|solutionrelative:checkpoint_18\\pages\\saleschart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|e:\\study\\asp_net\\checkpoint_18\\checkpoint_18\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|solutionrelative:checkpoint_18\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|e:\\study\\asp_net\\checkpoint_18\\checkpoint_18\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9DB158D-FAC0-BADF-A86C-AD5CA071006A}|Checkpoint_18\\Checkpoint_18.csproj|solutionrelative:checkpoint_18\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\degty\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.4\\build\\Microsoft.NET.Sdk.WebAssembly.Browser.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Checkpoint_18\\wwwroot\\index.html",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\wwwroot\\index.html",
+              "RelativeToolTip": "Checkpoint_18\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-15T18:09:42.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\App.razor",
+              "RelativeDocumentMoniker": "Checkpoint_18\\App.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\App.razor",
+              "RelativeToolTip": "Checkpoint_18\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T18:09:34.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "charts.js",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\wwwroot\\js\\charts.js",
+              "RelativeDocumentMoniker": "Checkpoint_18\\wwwroot\\js\\charts.js",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\wwwroot\\js\\charts.js",
+              "RelativeToolTip": "Checkpoint_18\\wwwroot\\js\\charts.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-15T18:02:31.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesChartComponent.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\Components\\SalesChartComponent.razor",
+              "RelativeDocumentMoniker": "Checkpoint_18\\Components\\SalesChartComponent.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\Components\\SalesChartComponent.razor",
+              "RelativeToolTip": "Checkpoint_18\\Components\\SalesChartComponent.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T18:01:39.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Checkpoint_18\\MainLayout.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\MainLayout.razor",
+              "RelativeToolTip": "Checkpoint_18\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T18:03:22.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalesChart.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\Pages\\SalesChart.razor",
+              "RelativeDocumentMoniker": "Checkpoint_18\\Pages\\SalesChart.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\Pages\\SalesChart.razor",
+              "RelativeToolTip": "Checkpoint_18\\Pages\\SalesChart.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T18:51:27.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\Program.cs",
+              "RelativeDocumentMoniker": "Checkpoint_18\\Program.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\Program.cs",
+              "RelativeToolTip": "Checkpoint_18\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T18:21:23.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\_Imports.razor",
+              "RelativeDocumentMoniker": "Checkpoint_18\\_Imports.razor",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_18\\Checkpoint_18\\_Imports.razor",
+              "RelativeToolTip": "Checkpoint_18\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T18:02:49.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Microsoft.NET.Sdk.WebAssembly.Browser.targets",
+              "DocumentMoniker": "C:\\Users\\degty\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.4\\build\\Microsoft.NET.Sdk.WebAssembly.Browser.targets",
+              "ToolTip": "C:\\Users\\degty\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\10.0.4\\build\\Microsoft.NET.Sdk.WebAssembly.Browser.targets",
+              "ViewState": "AgIAAJIBAAAAAAAAAAAmwIwBAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-15T18:15:37.511Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
