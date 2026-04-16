@@ -1,0 +1,52 @@
+﻿@page
+@model Checkpoint_19.Chat.ChatPageModel
+@{
+}
+
+<h2>Чат</h2>
+
+<div class="mb-3">
+    <p>Вы вошли как: <strong>@User.Identity?.Name</strong></p>
+    <a asp-page="/Account/Logout" class="btn btn-sm btn-outline-danger">Выйти</a>
+</div>
+
+<div id="messagesList" class="border p-3 mb-3" style="height: 300px; overflow-y: auto;"></div>
+
+<input type="text" id="messageInput" placeholder="Ваше сообщение" class="form-control mb-2" />
+<button id="sendButton" class="btn btn-primary">Отправить</button>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chathub")
+            .build();
+
+        const currentUser = "@User.Identity?.Name";
+
+        connection.on("ReceiveMessage", function (user, message) {
+            const msg = document.createElement("div");
+            msg.textContent = `${user}: ${message}`; 
+            document.getElementById("messagesList").appendChild(msg);
+        });
+
+        document.getElementById("sendButton").addEventListener("click", function () {
+            const message = document.getElementById("messageInput").value;
+            if (message.trim()) {
+                connection.invoke("SendMessage", currentUser, message)
+                    .catch(err => console.error(err));
+                document.getElementById("messageInput").value = '';
+            }
+        });
+
+        document.getElementById("messageInput").addEventListener("keypress", function (e) {
+            if (e.key === "Enter") {
+                document.getElementById("sendButton").click();
+            }
+        });
+
+        connection.start()
+            .then(() => console.log("Connected to chat"))
+            .catch(err => console.error(err));
+    </script>
+}
