@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C7xV/ajSQnM=",
+  "dgSpecHash": "NTUwD7T+tqw=",
   "success": true,
   "projectFilePath": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Checkpoint_19.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\degty\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

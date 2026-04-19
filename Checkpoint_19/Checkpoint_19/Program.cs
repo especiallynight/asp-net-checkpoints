@@ -1,4 +1,5 @@
 using Checkpoint_19.Hubs;
+using Checkpoint_19.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LoginPath = "/Account/Login";
         options.LogoutPath = "/Account/Logout";
     });
+
 builder.Services.AddAuthorization();
+builder.Services.AddSingleton<IUserService, UserService>();
 
 var app = builder.Build();
 

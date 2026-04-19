@@ -1,3 +1,4 @@
+using Checkpoint_19.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +12,12 @@ namespace Checkpoint_19.Pages.Account
 {
     public class LoginModel : PageModel
     {
+        private readonly IUserService _userService;
+
+        public LoginModel(IUserService userService)
+        {
+            _userService = userService;
+        }
         [BindProperty]
         [Required(ErrorMessage = "Введите имя пользователя")]
         public string Username { get; set; }
@@ -26,6 +33,11 @@ namespace Checkpoint_19.Pages.Account
         {
             if (!ModelState.IsValid)
                 return Page();
+            if (!_userService.ValidateUser(Username, Password))
+            {
+                ModelState.AddModelError(string.Empty, "Неверное имя пользователя или пароль");
+                return Page();
+            }
 
             var claims = new List<Claim>
             {

@@ -97,3 +97,6 @@ E:\Study\asp_net\Checkpoint_19\Checkpoint_19\obj\Debug\net10.0\refint\Checkpoint
 E:\Study\asp_net\Checkpoint_19\Checkpoint_19\obj\Debug\net10.0\Checkpoint_19.pdb
 E:\Study\asp_net\Checkpoint_19\Checkpoint_19\obj\Debug\net10.0\Checkpoint_19.genruntimeconfig.cache
 E:\Study\asp_net\Checkpoint_19\Checkpoint_19\obj\Debug\net10.0\ref\Checkpoint_19.dll
+E:\Study\asp_net\Checkpoint_19\Checkpoint_19\bin\Debug\net10.0\BCrypt.Net-Next.dll
+E:\Study\asp_net\Checkpoint_19\Checkpoint_19\obj\Debug\net10.0\Checkpoint_19.csproj.AssemblyReference.cache
+E:\Study\asp_net\Checkpoint_19\Checkpoint_19\obj\Debug\net10.0\Checkpoi.535E8F61.Up2Date

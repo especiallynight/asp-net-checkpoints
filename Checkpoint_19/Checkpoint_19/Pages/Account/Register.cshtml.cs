@@ -1,3 +1,4 @@
+using Checkpoint_19.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
@@ -5,28 +6,45 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 
-public class RegisterModel : PageModel
+namespace Checkpoint_19.Pages.Account
 {
-    [BindProperty]
-    public InputModel Input { get; set; }
-
-    public class InputModel
+    public class RegisterModel : PageModel
     {
-        [Required]
-        public string Username { get; set; }
-        [Required]
-        [DataType(DataType.Password)]
-        public string Password { get; set; }
-    }
+        private readonly IUserService _userService;
 
-    public void OnGet()
-    {
-    }
-
-    public async Task<IActionResult> OnPostAsync()
-    {
-        if (ModelState.IsValid)
+        public RegisterModel(IUserService userService)
         {
+            _userService = userService;
+        }
+
+        [BindProperty]
+        public InputModel Input { get; set; }
+
+        public class InputModel
+        {
+            [Required(ErrorMessage = "Введите имя пользователя")]
+            public string Username { get; set; }
+
+            [Required(ErrorMessage = "Введите пароль")]
+            [DataType(DataType.Password)]
+            [MinLength(6, ErrorMessage = "Пароль должен быть не менее 6 символов")]
+            public string Password { get; set; }
+        }
+
+        public void OnGet()
+        {
+        }
+
+        public async Task<IActionResult> OnPostAsync()
+        {
+            if (!ModelState.IsValid)
+                return Page();
+
+            if (!_userService.Register(Input.Username, Input.Password))
+            {
+                ModelState.AddModelError("Input.Username", "Пользователь с таким именем уже существует");
+                return Page();
+            }
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, Input.Username)
@@ -34,11 +52,12 @@ public class RegisterModel : PageModel
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity)
+            );
 
             return RedirectToPage("/Index");
         }
-
-        return Page();
     }
 }
