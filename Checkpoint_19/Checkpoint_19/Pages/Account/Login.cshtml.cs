@@ -33,15 +33,22 @@ namespace Checkpoint_19.Pages.Account
         {
             if (!ModelState.IsValid)
                 return Page();
+            
+            if (!_userService.UserExists(Username))
+            {
+                ModelState.AddModelError(string.Empty, "Пользователь не найден");
+                return Page();
+            }
             if (!_userService.ValidateUser(Username, Password))
             {
                 ModelState.AddModelError(string.Empty, "Неверное имя пользователя или пароль");
                 return Page();
             }
-
+            var user = _userService.GetUser(Username);
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, Username)
+                new Claim(ClaimTypes.Name, Username),
+                new Claim("CreatedAt", user?.CreatedAt.ToString("O") ?? DateTime.UtcNow.ToString("O"))
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);

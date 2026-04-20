@@ -30,10 +30,10 @@
             document.getElementById("messagesList").appendChild(msg);
         });
 
-        document.getElementById("sendButton").addEventListener("click", function () {
+                document.getElementById("sendButton").addEventListener("click", function () {
             const message = document.getElementById("messageInput").value;
             if (message.trim()) {
-                connection.invoke("SendMessage", currentUser, message)
+                connection.invoke("SendMessage", message)
                     .catch(err => console.error(err));
                 document.getElementById("messageInput").value = '';
             }

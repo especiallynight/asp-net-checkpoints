@@ -8,6 +8,7 @@ namespace Checkpoint_19.Services
     {
         public string Username { get; set; }
         public string PasswordHash { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 
     public interface IUserService
@@ -15,6 +16,7 @@ namespace Checkpoint_19.Services
         bool Register(string username, string password);
         bool ValidateUser(string username, string password);
         User? GetUser(string username);
+        bool UserExists(string username);
     }
 
     public class UserService : IUserService
@@ -28,7 +30,8 @@ namespace Checkpoint_19.Services
             _users[username] = new User
             {
                 Username = username,
-                PasswordHash = passwordHash
+                PasswordHash = passwordHash,
+                CreatedAt = DateTime.UtcNow
             };
 
             return true;
@@ -46,6 +49,10 @@ namespace Checkpoint_19.Services
         {
             _users.TryGetValue(username, out var user);
             return user;
+        }
+        public bool UserExists(string username)
+        {
+            return _users.ContainsKey(username);
         }
     }
 }

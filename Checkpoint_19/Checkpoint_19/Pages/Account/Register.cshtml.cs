@@ -40,14 +40,20 @@ namespace Checkpoint_19.Pages.Account
             if (!ModelState.IsValid)
                 return Page();
 
-            if (!_userService.Register(Input.Username, Input.Password))
+            if (_userService.UserExists(Input.Username))
             {
                 ModelState.AddModelError("Input.Username", "Пользователь с таким именем уже существует");
                 return Page();
             }
+            if (!_userService.Register(Input.Username, Input.Password))
+            {
+                ModelState.AddModelError(string.Empty, "Ошибка при регистрации. Попробуйте позже.");
+                return Page();
+            }
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, Input.Username)
+                new Claim(ClaimTypes.Name, Input.Username),
+                new Claim("CreatedAt", DateTime.UtcNow.ToString("O"))
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -57,7 +63,7 @@ namespace Checkpoint_19.Pages.Account
                 new ClaimsPrincipal(claimsIdentity)
             );
 
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Chat/ChatPage");
         }
     }
 }
