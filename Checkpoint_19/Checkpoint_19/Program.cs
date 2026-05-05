@@ -6,15 +6,30 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
 builder.Services.AddSignalR();
+builder.Services.AddAuthorization();
+builder.Services.AddSingleton<IUserService, UserService>();
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
+        options.Cookie.Name = "Checkpoint_19.Auth";
         options.LoginPath = "/Account/Login";
         options.LogoutPath = "/Account/Logout";
-    });
+        options.ExpireTimeSpan = TimeSpan.FromDays(30);
+        options.SlidingExpiration = true;
 
-builder.Services.AddAuthorization();
-builder.Services.AddSingleton<IUserService, UserService>();
+        options.Events.OnRedirectToLogin = context =>
+        {
+            if (context.Request.Path.StartsWithSegments("/chathub") ||
+                context.Request.Headers.Accept.ToString().Contains("application/json"))
+            {
+                context.Response.StatusCode = 401;
+                return Task.CompletedTask;
+            }
+            context.Response.Redirect(context.RedirectUri);
+            return Task.CompletedTask;
+        };
+    });
 
 var app = builder.Build();
 

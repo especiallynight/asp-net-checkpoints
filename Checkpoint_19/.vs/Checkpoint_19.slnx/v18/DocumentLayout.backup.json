@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|solutionrelative:checkpoint_19\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|e:\\study\\asp_net\\checkpoint_19\\checkpoint_19\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|solutionrelative:checkpoint_19\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|e:\\study\\asp_net\\checkpoint_19\\checkpoint_19\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|solutionrelative:checkpoint_19\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|e:\\study\\asp_net\\checkpoint_19\\checkpoint_19\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|solutionrelative:checkpoint_19\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|e:\\study\\asp_net\\checkpoint_19\\checkpoint_19\\pages\\chat\\chatpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|solutionrelative:checkpoint_19\\pages\\chat\\chatpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|e:\\study\\asp_net\\checkpoint_19\\checkpoint_19\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|solutionrelative:checkpoint_19\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|e:\\study\\asp_net\\checkpoint_19\\checkpoint_19\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|solutionrelative:checkpoint_19\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|e:\\study\\asp_net\\checkpoint_19\\checkpoint_19\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|solutionrelative:checkpoint_19\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|e:\\study\\asp_net\\checkpoint_19\\checkpoint_19\\checkpoint_19.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A11392F1-A01C-649D-3CCB-D2C22F7E65F0}|Checkpoint_19\\Checkpoint_19.csproj|solutionrelative:checkpoint_19\\checkpoint_19.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -66,7 +66,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Account\\Logout.cshtml.cs",
@@ -79,85 +79,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Account\\Login.cshtml.cs",
               "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Login.cshtml.cs",
               "RelativeToolTip": "Checkpoint_19\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwD8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T13:54:34.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Checkpoint_19\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwEQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA1wDwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T13:27:21.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "Checkpoint_19\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T13:27:02.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Checkpoint_19\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T13:26:45.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Checkpoint_19\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T13:26:23.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ChatPage.cshtml",
               "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Chat\\ChatPage.cshtml",
               "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Chat\\ChatPage.cshtml",
               "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Chat\\ChatPage.cshtml",
               "RelativeToolTip": "Checkpoint_19\\Pages\\Chat\\ChatPage.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwDMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-16T15:39:34.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ChatPage.cshtml.cs",
               "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Chat\\ChatPage.cshtml.cs",
               "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Chat\\ChatPage.cshtml.cs",
@@ -171,27 +132,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Checkpoint_19\\Services\\UserService.cs",
-              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Services\\UserService.cs",
-              "RelativeToolTip": "Checkpoint_19\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Checkpoint_19\\Hubs\\ChatHub.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Checkpoint_19\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T17:18:51.103Z",
+              "WhenOpened": "2026-04-16T13:39:59.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Checkpoint_19\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-16T13:27:02.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Checkpoint_19\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-16T13:26:23.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Index.cshtml",
               "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Index.cshtml",
               "RelativeToolTip": "Checkpoint_19\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwB8AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-16T15:43:51.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Checkpoint_19\\Services\\UserService.cs",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Services\\UserService.cs",
+              "RelativeToolTip": "Checkpoint_19\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T17:18:51.103Z",
               "EditorCaption": ""
             },
             {
@@ -202,7 +202,7 @@
               "RelativeDocumentMoniker": "Checkpoint_19\\Program.cs",
               "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Program.cs",
               "RelativeToolTip": "Checkpoint_19\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T13:23:56.432Z",
               "EditorCaption": ""
@@ -210,14 +210,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Hubs\\ChatHub.cs",
-              "RelativeDocumentMoniker": "Checkpoint_19\\Hubs\\ChatHub.cs",
-              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Hubs\\ChatHub.cs*",
-              "RelativeToolTip": "Checkpoint_19\\Hubs\\ChatHub.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T13:39:59.009Z",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Checkpoint_19\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "E:\\Study\\asp_net\\Checkpoint_19\\Checkpoint_19\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Checkpoint_19\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-16T13:26:45.561Z",
               "EditorCaption": ""
             },
             {

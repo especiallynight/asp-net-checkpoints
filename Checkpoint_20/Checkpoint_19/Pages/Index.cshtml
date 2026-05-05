@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Добро пожаловать в чат!</h1>
+
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <div class="alert alert-success mt-4">
+            <h3>Вы вошли как: <strong>@User.Identity.Name</strong></h3>
+            <div class="mt-3">
+                <a href="/Chat/ChatPage" class="btn btn-primary btn-lg"> Перейти в чат</a>
+                <a href="/Account/Logout" class="btn btn-outline-danger btn-lg ms-2"> Выйти</a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info mt-4">
+            <h3>Вы не авторизованы</h3>
+            <p>Для доступа к чату необходимо войти или зарегистрироваться</p>
+            <div class="mt-3">
+                <a href="/Account/Login" class="btn btn-primary btn-lg">Войти</a>
+                <a href="/Account/Register" class="btn btn-success btn-lg ms-2">Зарегистрироваться</a>
+            </div>
+        </div>
+    }
+
+</div>
